@@ -1,7 +1,3 @@
-This is a professional and engaging GitHub description tailored for your **Star Wars Battlefront 2 (2017) Save Editor**.
-
----
-
 # Star Wars Battlefront 2 (2017) PS4 Save Editor
 
 A modern, high-performance desktop utility designed to modify the `Data` files of **Star Wars Battlefront 2 (2017)** on the PlayStation 4. This tool allows console players to access graphical and display settings usually reserved for the PC version, including Field of View (FOV) and Resolution Scale.
@@ -54,7 +50,3 @@ This tool is intended for educational and single-player/offline enhancement purp
 ---
 
 **Developed by:** ArsaModz
-
----
-
-### Would you like me to create a `README.md` file specifically for your repository, or perhaps generate a list of the specific hex offsets used in your code for documentation?
