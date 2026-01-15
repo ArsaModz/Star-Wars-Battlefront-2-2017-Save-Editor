@@ -1,13 +1,3 @@
-It looks like there’s a **mismatch** between the description you posted and the code you uploaded:
-
-* **Your text:** *Tales of Arise Save Editor (PS4)*
-* **Your code (`main.py`):** *Star Wars Battlefront II (2017) Save Editor (PS4)*
-  (FOV, resolution scale, graphics quality, AA, presets, etc.)
-
-To help you move forward cleanly, here’s a **corrected README** that accurately reflects what your uploaded code actually does. You can drop this straight into a `README.md`.
-
----
-
 # Star Wars Battlefront II (2017) Save Editor – PS4
 
 A modern, GUI-based save editor for **Star Wars Battlefront II (2017)** on PlayStation 4, developed by **ArsaModz**.
