@@ -97,4 +97,3 @@ Additional options:
 ---
 
 **Developed by:** ArsaModz
-**Game:** Star Wars Battlefront II (2017) – PS4
