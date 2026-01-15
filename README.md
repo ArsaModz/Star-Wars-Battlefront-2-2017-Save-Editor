@@ -1,6 +1,6 @@
 # Star Wars Battlefront 2 (2017) PS4 Save Editor
 
-A modern, high-performance desktop utility designed to modify the `Data` files of **Star Wars Battlefront 2 (2017)** on the PlayStation 4. This tool allows console players to access graphical and display settings usually reserved for the PC version, including Field of View (FOV) and Resolution Scale.
+A modern, high-performance save editor designed to modify the `Data` files of **Star Wars Battlefront 2 (2017)** on the PlayStation 4. This tool allows console players to access graphical and display settings usually reserved for the PC version, including Field of View (FOV) and Resolution Scale.
 
 ## 🚀 Key Features
 
