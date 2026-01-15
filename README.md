@@ -24,8 +24,6 @@ A modern, high-performance desktop utility designed to modify the `Data` files o
 
 **PS4 Save Mounter / Discord Save Bot:** You must be able to decrypt and export your PS4 save data (specifically the `Data` file) to your PC.
 
-``
-
 ## 📖 How to Use
 
 1. **Export:** Use your preferred PS4 save utility to extract the `Data` file from your Battlefront 2 save.
