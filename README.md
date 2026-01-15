@@ -29,7 +29,7 @@ A modern, high-performance desktop utility designed to modify the `Data` files o
 1. **Export:** Use your preferred PS4 save utility to extract the `Data` file from your Battlefront 2 save.
 2. **Open:** Run the editor and click **"Open Save"** to load your file.
 3. **Modify:** Adjust your FOV, resolution, or graphics settings.
-> **Note:** To apply individual graphics changes, ensure "Overall Graphics Quality" is set to **Custom**.
+**Note:** To apply individual graphics changes, ensure "Overall Graphics Quality" is set to **Custom**.
 4. **Save:** Click **"Save Changes"** to write the hex offsets.
 5. **Import:** Re-sign and import the modified save back to your PS4.
 
