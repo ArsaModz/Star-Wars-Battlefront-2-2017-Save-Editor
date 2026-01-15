@@ -1,4 +1,4 @@
-# Star Wars Battlefront II (2017) Save Editor – PS4
+# Star Wars Battlefront II (2017) Save Editor PS4
 
 A modern, GUI-based save editor for **Star Wars Battlefront II (2017)** on PlayStation 4, developed by **ArsaModz**.
 Built with **Python + PyQt6**, this tool allows you to edit display settings, field of view, and advanced graphics quality options directly from a decrypted PS4 save file.
