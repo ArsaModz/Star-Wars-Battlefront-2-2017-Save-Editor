@@ -22,15 +22,9 @@ A modern, high-performance desktop utility designed to modify the `Data` files o
 
 ## 🛠️ Requirements & Installation
 
-1. **PS4 Save Mounter / Save Wizard:** You must be able to decrypt and export your PS4 save data (specifically the `Data` file) to your PC.
-2. **Python 3.x:** (If running from source)
-3. **Dependencies:**
-```bash
-pip install PyQt6
+**PS4 Save Mounter / Discord Save Bot:** You must be able to decrypt and export your PS4 save data (specifically the `Data` file) to your PC.
 
 ```
-
-
 
 ## 📖 How to Use
 
