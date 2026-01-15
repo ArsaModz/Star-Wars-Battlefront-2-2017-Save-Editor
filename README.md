@@ -1,41 +1,110 @@
-# Star Wars Battlefront 2 (2017) PS4 Save Editor
+It looks like there’s a **mismatch** between the description you posted and the code you uploaded:
 
-A modern, high-performance save editor designed to modify the `Data` files of **Star Wars Battlefront 2 (2017)** on the PlayStation 4. This tool allows console players to access graphical and display settings usually reserved for the PC version, including Field of View (FOV) and Resolution Scale.
+* **Your text:** *Tales of Arise Save Editor (PS4)*
+* **Your code (`main.py`):** *Star Wars Battlefront II (2017) Save Editor (PS4)*
+  (FOV, resolution scale, graphics quality, AA, presets, etc.)
 
-## 🚀 Key Features
+To help you move forward cleanly, here’s a **corrected README** that accurately reflects what your uploaded code actually does. You can drop this straight into a `README.md`.
 
-* **Field of View (FOV) Slider:** Break past the console default. Adjust your FOV from the standard 55 up to 110 for a competitive edge and better visibility.
-* **Resolution Scaling:** Optimize your visual clarity or performance by toggling between standard 1080p and 4K-ready scales.
-* **Advanced Graphics Control:** Fine-tune individual settings like:
-* Ambient Occlusion, Shadow Quality, and Lighting.
-* Texture Filtering and Mesh Quality.
-* Terrain Groundcover and Undergrowth Quality.
+---
 
+# Star Wars Battlefront II (2017) Save Editor – PS4
 
-* **Post-Processing Toggles:** Enable or disable Atmospheric Effects, V-Sync, and Anti-Aliasing.
-* **One-Click Presets:** Quickly apply "Low," "Medium," "High," or "Ultra" profiles to all graphical settings at once.
-* **Modern Dark Interface:** A sleek, user-friendly UI built with PyQt6 for a seamless experience.
+A modern, GUI-based save editor for **Star Wars Battlefront II (2017)** on PlayStation 4, developed by **ArsaModz**.
+Built with **Python + PyQt6**, this tool allows you to edit display settings, field of view, and advanced graphics quality options directly from a decrypted PS4 save file.
 
-## 📸 Preview
+---
 
-*The editor features a categorized tab system for "Display / FOV" and "Graphics Quality" to make navigation simple and efficient.*
+## 🚀 Features
 
-## 🛠️ Requirements & Installation
+### 🎥 Display & FOV Controls
 
-**PS4 Save Mounter / Discord Save Bot:** You must be able to decrypt and export your PS4 save data (specifically the `Data` file) to your PC.
+* **Global FOV Editor**
+
+  * Presets from **55 (Default)** up to **110 (Max)**
+  * Recommended **90 FOV** included
+* **Resolution Scale**
+
+  * Default (1080p)
+  * Max (4K scaling)
+
+### 🎮 Gameplay & Display Toggles
+
+* Atmospheric Effects (On / Off)
+* Vertical Sync (VSync) (On / Off)
+* Loadout Presets (On / Off)
+
+---
+
+## 🎨 Graphics Quality Editor
+
+### 🔘 Quick Presets
+
+* Set All **Low**
+* Set All **Medium**
+* Set All **High**
+* Set All **Ultra**
+
+### ⚙️ Advanced Graphics Settings
+
+Individually editable quality options:
+
+* Undergrowth Quality
+* Sky Celestial Quality
+* Debris Quality
+* Terrain Quality
+* Texture Filtering
+* Shadow Quality
+* Effects Quality
+* Lighting Quality
+* Ambient Occlusion
+* Texture Quality
+* Mesh Quality
+* Terrain Groundcover
+* Post Processing Quality
+
+Additional options:
+
+* **Anti-Aliasing Post**
+* **Overall Graphics Quality**
+
+  * Auto, Low, Medium, High, Ultra, Custom
+    *(Custom required for manual overrides)*
+
+---
+
+## 🛠️ Requirements
+
+* **Decrypted PS4 Save File**
+
+  * Typically extracted using Save Wizard or equivalent tools
+* **Python 3.10+**
+* **PyQt6**
+
+---
 
 ## 📖 How to Use
 
-1. **Export:** Use your preferred PS4 save utility to extract the `Data` file from your Battlefront 2 save.
-2. **Open:** Run the editor and click **"Open Save"** to load your file.
-3. **Modify:** Adjust your FOV, resolution, or graphics settings.
-> **Note:** To apply individual graphics changes, ensure "Overall Graphics Quality" is set to **Custom**.
-4. **Save:** Click **"Save Changes"** to write the hex offsets.
-5. **Import:** Re-sign and import the modified save back to your PS4.
+1. **Open Save**
+
+   * Click **Open Save** and select your decrypted `*data` file
+2. **Edit Settings**
+
+   * Adjust FOV, resolution, toggles, and graphics options
+3. **Save Changes**
+
+   * Click **Save Changes**
+4. **Re-sign Save**
+
+   * Encrypt and re-sign the save for PS4 use
+
+---
 
 ## ⚠️ Disclaimer
 
-This tool is intended for educational and single-player/offline enhancement purposes. Always create a backup of your original save file before making any modifications. Use at your own risk.
+* Always **back up your save file** before editing.
+* This tool is for **educational and personal use only**.
+* Improper edits may corrupt your save.
 
 ---
 
