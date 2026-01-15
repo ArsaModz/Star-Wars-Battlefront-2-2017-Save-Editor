@@ -67,9 +67,7 @@ Additional options:
 
 * **Decrypted PS4 Save File**
 
-  * Typically extracted using Save Wizard or equivalent tools
-* **Python 3.10+**
-* **PyQt6**
+  * Typically extracted using Save Mounter or equivalent tools
 
 ---
 
