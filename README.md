@@ -1,99 +1,50 @@
-# Star Wars Battlefront II (2017) Save Editor – PS4
+# 🌌 Star Wars Battlefront 2 (PS4) Save Editor
 
-A modern, GUI-based save editor for **Star Wars Battlefront II (2017)** on PlayStation 4, developed by **ArsaModz**.
-Built with **Python + PyQt6**, this tool allows you to edit display settings, field of view, and advanced graphics quality options directly from a decrypted PS4 save file.
+A modern, high-performance save data editor for **Star Wars Battlefront 2 (2017)** on PS4. This tool allows players to bypass console limitations by modifying hidden graphics, display, and gameplay settings directly within the save file.
 
----
-
-## 🚀 Features
-
-### 🎥 Display & FOV Controls
-
-* **Global FOV Editor**
-
-  * Presets from **55 (Default)** up to **110 (Max)**
-  * Recommended **90 FOV** included
-* **Resolution Scale**
-
-  * Default (1080p)
-  * Max (4K scaling)
-
-### 🎮 Gameplay & Display Toggles
-
-* Atmospheric Effects (On / Off)
-* Vertical Sync (VSync) (On / Off)
-* Loadout Presets (On / Off)
+Created by **ArsaModz**, this editor features a sleek "Dark Mode" interface built with PyQt6, providing a user-friendly way to optimize your game's performance and visuals.
 
 ---
 
-## 🎨 Graphics Quality Editor
+## ✨ Key Features
 
-### 🔘 Quick Presets
+### 🖥️ Display & FOV Enhancements
 
-* Set All **Low**
-* Set All **Medium**
-* Set All **High**
-* Set All **Ultra**
+* **Custom Field of View (FOV):** Unlock FOV ranges from 55 (Default) up to 110 (Max). Recommended setting of 90 is easily accessible.
+* **Resolution Scaling:** Toggle between standard 1080p and a simulated 4K (2.0x) scale.
+* **Gameplay Toggles:** Easily enable or disable Atmospheric Effects, Vertical Sync, and Loadout Presets.
 
-### ⚙️ Advanced Graphics Settings
+### 🎮 Advanced Graphics Control
 
-Individually editable quality options:
+Gain access to PC-like graphics settings on your console:
 
-* Undergrowth Quality
-* Sky Celestial Quality
-* Debris Quality
-* Terrain Quality
-* Texture Filtering
-* Shadow Quality
-* Effects Quality
-* Lighting Quality
-* Ambient Occlusion
-* Texture Quality
-* Mesh Quality
-* Terrain Groundcover
-* Post Processing Quality
-
-Additional options:
-
-* **Anti-Aliasing Post**
-* **Overall Graphics Quality**
-
-  * Auto, Low, Medium, High, Ultra, Custom
-    *(Custom required for manual overrides)*
+* **Quick Presets:** Apply "All Low" to "All Ultra" settings with a single click.
+* **Granular Adjustments:** Individually modify Terrain Quality, Texture Filtering, Shadow Quality, Ambient Occlusion, Mesh Quality, and more.
+* **Anti-Aliasing:** Control Post-Process Anti-Aliasing levels.
+* **Custom Profiles:** Set "Overall Graphics Quality" to Custom to unlock individual setting overrides.
 
 ---
 
-## 🛠️ Requirements
+## 🚀 How to Use
 
-* **Decrypted PS4 Save File**
+1. **Extract your Save:** Use your preferred method to transfer your BF2 save data from your PS4 to your PC.
+2. **Open the Editor:** Run `main.py` or the compiled executable.
+3. **Load Data:** Click **"Open Save"** and select your `data` file.
+4. **Modify:** Adjust your FOV, graphics, and gameplay settings across the two tabs.
+* *Note: To use advanced graphics, ensure "Overall Graphics Quality" is set to "Custom".*
 
-  * Typically extracted using Save Mounter or equivalent tools
 
----
-
-## 📖 How to Use
-
-1. **Open Save**
-
-   * Click **Open Save** and select your decrypted `*data` file
-2. **Edit Settings**
-
-   * Adjust FOV, resolution, toggles, and graphics options
-3. **Save Changes**
-
-   * Click **Save Changes**
-4. **Re-sign Save**
-
-   * Encrypt and re-sign the save for PS4 use
+5. **Save:** Click **"Save Changes"** to write the hex values back to the file.
+6. **Transfer Back:** Move the modified save back to your PS4 and enjoy!
 
 ---
+
+## 🛠️ Technical Details
+
+* **GUI Framework:** PyQt6 (Python)
+* **Styling:** Custom QSS (Modern Dark Theme)
+* **File Handling:** Direct bytearray manipulation of binary save data via specific hex offsets (e.g., FOV at `0x25B`, VSync at `0x4A5`).
 
 ## ⚠️ Disclaimer
 
-* Always **back up your save file** before editing.
-* This tool is for **educational and personal use only**.
-* Improper edits may corrupt your save.
-
----
-
-**Developed by:** ArsaModz
+This tool is intended for educational and personal use only. Always create a backup of your original save file before making modifications. Modifying save data may result in unexpected behavior or file corruption if not handled carefully.
